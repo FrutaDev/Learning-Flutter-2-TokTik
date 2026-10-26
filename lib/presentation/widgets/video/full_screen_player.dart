@@ -27,7 +27,7 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
     super.initState();
 
     // Create and store the VideoPlayerController. The VideoPlayerController
-    // offers several different constructors to play videos from assets, files,
+    // offers several different constructors to play videoss from assets, files,
     // or the internet.
     _controller = VideoPlayerController.asset(widget.videoUrl)
     ..setVolume(0)
